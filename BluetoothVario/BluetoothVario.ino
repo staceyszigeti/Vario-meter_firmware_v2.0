@@ -1,4 +1,4 @@
-#include <SoftwareSerial.h>
+//#include <SoftwareSerial.h>
 #include <SFE_BMP180.h>
 #include <Wire.h>
 
@@ -30,8 +30,8 @@ SFE_BMP180 pressure;
 
 double baseline; // baseline pressure
 
-int bluetoothTx = 10;
-int bluetoothRx = 11;
+//int bluetoothTx = 10;
+//int bluetoothRx = 11;
 
 
 int CH;
@@ -43,7 +43,7 @@ double aDIFF, aLASTDIFF;
 int count = 0;
 int i = 0;
 
-SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
+//SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 char strX[8];
 char strY[8];
  
